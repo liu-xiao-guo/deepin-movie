@@ -1,0 +1,729 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# Анатолий Валерианович <ffox909@mail.ru>, 2014
+# Serge Kukharski, 2014
+# Vasilii Rusu <basil_russu@hotmail.com>, 2015
+# Анатолий Валерианович <ffox909@mail.ru>, 2014-2016
+# Валерий Владимирович, 2016
+msgid ""
+msgstr ""
+"Project-Id-Version: Deepin Movie\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-05-11 11:21+0800\n"
+"PO-Revision-Date: 2016-12-06 01:36+0000\n"
+"Last-Translator: deepin_transifex <xiabin@linuxdeepin.com>\n"
+"Language-Team: Russian (http://www.transifex.com/linuxdeepin/deepin-movie/language/ru/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ru\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=11 && n%100<=14)? 2 : 3);\n"
+
+#: ../src/views/AboutSection.qml:6 ../src/views/PreferenceWindow.qml:129
+msgid "About"
+msgstr "О программе"
+
+#: ../src/views/AboutSection.qml:15
+msgid "Acknowledgements"
+msgstr ""
+
+#: ../src/views/AboutSection.qml:13 ../src/views/TitleBar.qml:70
+#: ../src/views/TitleBar.qml:142 ../src/views/window.py:71
+msgid "Deepin Movie"
+msgstr "Видеопроигрыватель Deepin "
+
+#: ../src/views/AboutSection.qml:28
+msgid "Version"
+msgstr "Версия"
+
+#: ../src/views/AboutSection.qml:28 ../src/views/InformationLabel.qml:20
+#: ../src/views/MainController.qml:260 ../src/views/main.qml:142
+msgid ":"
+msgstr ":"
+
+#: ../src/views/AboutSection.qml:58
+msgid ""
+"Deepin Movie is a well-designed and full-featured video player with simple "
+"borderless design. It supports local and streaming media play with multiple "
+"video formats."
+msgstr "Видеопроигрыватель Deepin  это полнофункциональный и хорошо продуманный видео-плеер с невероятно простым дизайном. Он поддерживает локальное и потоковое воспроизведение многих видео форматов."
+
+#: ../src/views/AboutSection.qml:69
+msgid "Deepin Movie is released under GPLv3."
+msgstr "Видеопроигрыватель Deepin выпущен под GPLv3."
+
+#: ../src/views/ControlBar.qml:229
+msgid "Stop playing"
+msgstr "Остановить воспроизведение"
+
+#: ../src/views/ControlBar.qml:247 ../src/controllers/menu_controller.py:90
+msgid "Previous"
+msgstr "Предыдущий"
+
+#: ../src/views/ControlBar.qml:266
+msgid "Pause"
+msgstr "Пауза"
+
+#: ../src/views/ControlBar.qml:266 ../src/controllers/menu_controller.py:108
+#: ../src/controllers/menu_controller.py:119
+msgid "Play"
+msgstr "Воспроизведение"
+
+#: ../src/views/ControlBar.qml:283 ../src/controllers/menu_controller.py:91
+msgid "Next"
+msgstr "Следующий"
+
+#: ../src/views/ControlBar.qml:326 ../src/controllers/menu_controller.py:449
+msgid "Exit fullscreen"
+msgstr "Выйти из полноэкранного режима"
+
+#: ../src/views/ControlBar.qml:326 ../src/views/PreferenceWindow.qml:391
+#: ../src/views/PreferenceWindow.qml:941 ../src/views/ShortcutsViewer.qml:58
+#: ../src/views/ShortcutsViewer.qml:139
+#: ../src/controllers/menu_controller.py:102
+#: ../src/controllers/menu_controller.py:450
+msgid "Fullscreen"
+msgstr "Полноэкранный режим"
+
+#: ../src/views/ControlBar.qml:343 ../src/views/PreferenceWindow.qml:711
+#: ../src/views/ShortcutsViewer.qml:83
+#: ../src/controllers/menu_controller.py:98
+msgid "Open a file"
+msgstr "Открыть файл"
+
+#: ../src/views/ControlBar.qml:355 ../src/views/OpenFileDialog.qml:66
+#: ../src/views/PreferenceWindow.qml:417 ../src/views/ShortcutsViewer.qml:62
+#: ../src/controllers/menu_controller.py:105
+msgid "Playlist"
+msgstr "Список воспроизведения"
+
+#: ../src/views/HotKeyInput.qml:7 ../src/views/HotKeyInput.qml:16
+#: ../src/views/HotKeyInputRow.qml:24 ../src/views/HotKeyInputRow.qml:26
+#: ../src/views/HotKeyInputRow.qml:56 ../src/views/PreferenceWindow.qml:925
+#: ../src/views/PreferenceWindow.qml:941 ../src/views/PreferenceWindow.qml:957
+#: ../src/views/ShortcutsLabel.qml:23 ../src/views/ShortcutsViewer.qml:134
+#: ../src/views/ShortcutsViewer.qml:139 ../src/views/ShortcutsViewer.qml:144
+msgid "None"
+msgstr "Ничего"
+
+#: ../src/views/HotKeyInput.qml:23
+msgid "Please input a new shortcut"
+msgstr "Введите новое сочетание клавиш"
+
+#: ../src/views/HotKeyInputRow.qml:30
+msgid "The shortcut you set "
+msgstr "Установленное Вами сочетание клавиш"
+
+#: ../src/views/HotKeyInputRow.qml:31
+#, qt-format
+msgid "conflicts with the one used for \"%2\" in the \"%1\" category. "
+msgstr "конфликт с использованием \"%2\" в категории \"%1\"."
+
+#: ../src/views/HotKeyInputRow.qml:32
+msgid "Do you want to replace it?"
+msgstr "Желаете заменить это?"
+
+#: ../src/views/HotKeyInputRow.qml:99 ../src/views/main.qml:144
+msgid "Cancel"
+msgstr "Отмена"
+
+#: ../src/views/HotKeyInputRow.qml:110
+msgid "Replace"
+msgstr "Заменить"
+
+#: ../src/views/InformationWindow.qml:23 ../src/views/InformationWindow.qml:24
+#: ../src/views/InformationWindow.qml:25 ../src/models/movie_info.py:78
+msgid "Unknown"
+msgstr "Неизвестный"
+
+#: ../src/views/InformationWindow.qml:77
+msgid "File type"
+msgstr "Тип файла"
+
+#: ../src/views/InformationWindow.qml:87
+msgid "File size"
+msgstr "Размер файла"
+
+#: ../src/views/InformationWindow.qml:97
+msgid "Resolution"
+msgstr "Разрешение"
+
+#: ../src/views/InformationWindow.qml:107
+msgid "Movie duration"
+msgstr "Продолжительность фильма"
+
+#: ../src/views/InformationWindow.qml:117
+msgid "File path"
+msgstr "Путь к файлу"
+
+#: ../src/views/InformationWindow.qml:134
+msgid "Copy to clipboard"
+msgstr "Копировать в буфер"
+
+#: ../src/views/InformationWindow.qml:149
+msgid "Close"
+msgstr "Закрыть"
+
+#: ../src/views/MainController.qml:260
+msgid "Invalid file"
+msgstr "Неверный файл"
+
+#: ../src/views/MainController.qml:37
+#, qt-format
+msgid "%1 files unable to be parsed have been excluded"
+msgstr "%1 файлов были исключены как неанализируемые"
+
+#: ../src/views/MainController.qml:50
+msgid "Imported"
+msgstr "Импортирован"
+
+#: ../src/views/MainController.qml:462
+msgid "Play last movie played"
+msgstr "Посмотреть последний воспроизведенный фильм"
+
+#: ../src/views/MainController.qml:495 ../src/views/PreferenceWindow.qml:339
+#: ../src/views/ShortcutsViewer.qml:50
+#: ../src/controllers/menu_controller.py:93
+msgid "Forward"
+msgstr "Перемотка вперед"
+
+#: ../src/views/MainController.qml:507 ../src/views/PreferenceWindow.qml:365
+#: ../src/views/ShortcutsViewer.qml:54
+#: ../src/controllers/menu_controller.py:94
+msgid "Rewind"
+msgstr "Перемотка назад"
+
+#: ../src/views/MainController.qml:515 ../src/views/MainController.qml:521
+#, qt-format
+msgid "(Press %1 to restore)"
+msgstr "(Нажать %1 для восставновления)"
+
+#: ../src/views/MainController.qml:517 ../src/views/MainController.qml:523
+#: ../src/views/MainController.qml:528
+msgid "Playback rate: "
+msgstr "Скорость воспроизведения:"
+
+#: ../src/views/MainController.qml:540 ../src/views/MainController.qml:549
+msgid "Volume: "
+msgstr "Громкость: "
+
+#: ../src/views/MainController.qml:547
+#: ../src/controllers/menu_controller.py:60
+msgid "Muted"
+msgstr "Заглушенный"
+
+#: ../src/views/MainController.qml:683 ../src/views/MainController.qml:696
+#, qt-format
+msgid "Subtitle advanced %1 seconds"
+msgstr "Субтитры, дополнительно %1 секунд"
+
+#: ../src/views/MainController.qml:685 ../src/views/MainController.qml:698
+#, qt-format
+msgid "Subtitle delayed %1 seconds"
+msgstr "Задержка субтитров %1 секунд"
+
+#: ../src/views/OpenFileDialog.qml:5 ../src/views/OpenFileDialog.qml:21
+#: ../src/views/OpenFileDialog.qml:41
+msgid "Please choose one file or more"
+msgstr "Выберите один или несколько файлов"
+
+#: ../src/views/OpenFileDialog.qml:7 ../src/views/OpenFileDialog.qml:23
+#: ../src/views/OpenFileDialog.qml:43
+msgid "Video files"
+msgstr "Видео файлы"
+
+#: ../src/views/OpenFileDialog.qml:15
+msgid "All files"
+msgstr "Все файлы"
+
+#: ../src/views/OpenFileDialog.qml:31 ../src/views/OpenFileDialog.qml:51
+msgid "Please choose one file"
+msgstr "Выберите один файл"
+
+#: ../src/views/OpenFileDialog.qml:33
+msgid "Subtitle files"
+msgstr "Файлы субтитров"
+
+#: ../src/views/OpenFileDialog.qml:53 ../src/views/OpenFileDialog.qml:63
+msgid "Playlist files"
+msgstr "Файлы списка воспроизведения"
+
+#: ../src/views/OpenFileDialog.qml:61
+msgid "Save as"
+msgstr "Сохранить как"
+
+#: ../src/views/OpenFolderDialog.qml:5
+msgid "Please choose a folder"
+msgstr "Выберите папку"
+
+#: ../src/views/Playlist.qml:252
+msgid "Play mode"
+msgstr "Режим воспроизведения"
+
+#: ../src/views/Playlist.qml:260 ../src/controllers/menu_controller.py:120
+#: ../src/controllers/menu_controller.py:136
+msgid "Add file"
+msgstr "Добавить файл"
+
+#: ../src/views/Playlist.qml:268 ../src/controllers/menu_controller.py:127
+msgid "Clear playlist"
+msgstr "Очистить список воспроизведения"
+
+#: ../src/views/PreferenceWindow.qml:238
+msgid "Clear playlist on opening new file"
+msgstr "Очистить список воспроизведения при открытии нового файла"
+
+#: ../src/views/PreferenceWindow.qml:243
+msgid "Resume playback after restarting player"
+msgstr "Возобновить воспроизведение при повторном запуске видеопроигрывателя"
+
+#: ../src/views/PreferenceWindow.qml:248
+msgid "Continue to next video automatically"
+msgstr "Перейти к следующему видео автоматически"
+
+#: ../src/views/PreferenceWindow.qml:253
+msgid "Show preview when hovering over progress bar"
+msgstr "Предпросмотр при наведении курсора на прогресс-бар"
+
+#: ../src/views/PreferenceWindow.qml:286
+msgid "Forward/Rewind (s)"
+msgstr "Вперёд/Назад (s)"
+
+#: ../src/views/PreferenceWindow.qml:308 ../src/views/PreferenceWindow.qml:532
+#: ../src/views/PreferenceWindow.qml:705 ../src/views/PreferenceWindow.qml:800
+msgid "Enable keyboard shortcuts"
+msgstr "Включить сочетания клавиш"
+
+#: ../src/views/PreferenceWindow.qml:313 ../src/views/PreferenceWindow.qml:925
+#: ../src/views/ShortcutsViewer.qml:46 ../src/views/ShortcutsViewer.qml:134
+msgid "Pause/Play"
+msgstr "Пауза/Воспроизведение"
+
+#: ../src/views/PreferenceWindow.qml:443 ../src/views/ShortcutsViewer.qml:66
+msgid "Accelerate playback"
+msgstr "Ускоренное воспроизведение"
+
+#: ../src/views/PreferenceWindow.qml:469 ../src/views/ShortcutsViewer.qml:70
+msgid "Decelerate playback"
+msgstr "Замедленное воспроизведение"
+
+#: ../src/views/PreferenceWindow.qml:495 ../src/views/ShortcutsViewer.qml:74
+msgid "Restore playback speed"
+msgstr "Восстановить скорость воспроизведения"
+
+#: ../src/views/PreferenceWindow.qml:538 ../src/views/ShortcutsViewer.qml:104
+#: ../src/controllers/menu_controller.py:103
+#: ../src/controllers/menu_controller.py:452
+msgid "Mini mode"
+msgstr "Компактный вид"
+
+#: ../src/views/PreferenceWindow.qml:616 ../src/views/ShortcutsViewer.qml:116
+msgid "Volume up"
+msgstr "Громче"
+
+#: ../src/views/PreferenceWindow.qml:642 ../src/views/ShortcutsViewer.qml:120
+msgid "Volume down"
+msgstr "Тише"
+
+#: ../src/views/PreferenceWindow.qml:737 ../src/views/ShortcutsViewer.qml:87
+msgid "Open previous"
+msgstr "Открыть предыдущий"
+
+#: ../src/views/PreferenceWindow.qml:763 ../src/views/ShortcutsViewer.qml:91
+msgid "Open next"
+msgstr "Открыть следующий"
+
+#: ../src/views/PreferenceWindow.qml:806 ../src/views/ShortcutsViewer.qml:153
+#, qt-format
+msgid "Forward %1 (s)"
+msgstr "Вперёд %1 (s)"
+
+#: ../src/views/PreferenceWindow.qml:832 ../src/views/ShortcutsViewer.qml:157
+#, qt-format
+msgid "Delay %1 (s)"
+msgstr "Задержка %1 (s)"
+
+#: ../src/views/PreferenceWindow.qml:858 ../src/views/ShortcutsViewer.qml:161
+msgid "Subtitle up"
+msgstr "Субтитры выше"
+
+#: ../src/views/PreferenceWindow.qml:884 ../src/views/ShortcutsViewer.qml:165
+msgid "Subtitle down"
+msgstr "Субтитры ниже"
+
+#: ../src/views/PreferenceWindow.qml:922 ../src/views/ShortcutsViewer.qml:133
+msgid "Left click"
+msgstr "Левый клик"
+
+#: ../src/views/PreferenceWindow.qml:938 ../src/views/ShortcutsViewer.qml:138
+msgid "Double click"
+msgstr "Двойной клик"
+
+#: ../src/views/PreferenceWindow.qml:979
+msgid "Subtitles loaded automatically"
+msgstr "Субтитры загружаются автоматически"
+
+#: ../src/views/PreferenceWindow.qml:1088
+msgid "Border width"
+msgstr "Ширина границы"
+
+#: ../src/views/PreferenceWindow.qml:21
+msgid "Orange"
+msgstr "Оранжевый"
+
+#: ../src/views/PreferenceWindow.qml:76 ../src/views/PreferenceWindow.qml:92
+#: ../src/views/PreferenceWindow.qml:217 ../src/views/PreferenceWindow.qml:299
+#: ../src/views/ShortcutsViewer.qml:43
+msgid "Playback"
+msgstr "Воспроизведение"
+
+#: ../src/views/PreferenceWindow.qml:97 ../src/views/PreferenceWindow.qml:523
+#: ../src/views/ShortcutsViewer.qml:101
+msgid "Frame/Sound"
+msgstr "Кадр/Звук"
+
+#: ../src/views/PreferenceWindow.qml:102 ../src/views/PreferenceWindow.qml:696
+#: ../src/views/ShortcutsViewer.qml:80
+msgid "Files"
+msgstr "Файлы"
+
+#: ../src/views/PreferenceWindow.qml:112 ../src/views/PreferenceWindow.qml:912
+#: ../src/views/ShortcutsViewer.qml:130
+msgid "Other"
+msgstr "Другое"
+
+#: ../src/views/PreferenceWindow.qml:107 ../src/views/PreferenceWindow.qml:791
+#: ../src/views/ShortcutsViewer.qml:150
+#: ../src/controllers/menu_controller.py:111
+msgid "Subtitles"
+msgstr "Субтитры"
+
+#: ../src/views/PreferenceWindow.qml:15
+msgid "Black"
+msgstr "Чёрный"
+
+#: ../src/views/PreferenceWindow.qml:16
+msgid "bleu de France"
+msgstr "блё де-франс"
+
+#: ../src/views/PreferenceWindow.qml:17
+msgid "Turquoise"
+msgstr "Бирюзовый"
+
+#: ../src/views/PreferenceWindow.qml:18
+msgid "UFO green"
+msgstr "Зеленый НЛО"
+
+#: ../src/views/PreferenceWindow.qml:19
+msgid "Green yellow"
+msgstr "Зелено-желтый"
+
+#: ../src/views/PreferenceWindow.qml:20
+msgid "Energy yellow"
+msgstr "Энергия жёлтого"
+
+#: ../src/views/PreferenceWindow.qml:22
+msgid "Radical red"
+msgstr "Радикально-красный"
+
+#: ../src/views/PreferenceWindow.qml:23
+msgid "Lavender indigo"
+msgstr "Лавандовый индиго"
+
+#: ../src/views/PreferenceWindow.qml:24
+msgid "Royal blue"
+msgstr "Ярко-синий"
+
+#: ../src/views/PreferenceWindow.qml:25
+msgid "Aluminum"
+msgstr "Алюминиевый"
+
+#: ../src/views/PreferenceWindow.qml:26
+msgid "Clean white"
+msgstr "Белый"
+
+#: ../src/views/PreferenceWindow.qml:72 ../src/views/PreferenceWindow.qml:213
+msgid "Basic settings"
+msgstr "Основные настройки"
+
+#: ../src/views/PreferenceWindow.qml:81 ../src/views/PreferenceWindow.qml:277
+msgid "Time span"
+msgstr "Промежуток времени"
+
+#: ../src/views/PreferenceWindow.qml:88 ../src/views/PreferenceWindow.qml:295
+msgid "Keyboard shortcuts"
+msgstr "Сочетания клавиш"
+
+#: ../src/views/PreferenceWindow.qml:119 ../src/views/PreferenceWindow.qml:972
+msgid "Subtitle settings"
+msgstr "Настройки субтитров"
+
+#: ../src/views/PreferenceWindow.qml:148
+msgid "Reset shortcuts"
+msgstr "Сброс  настроек сочетаний клавиш"
+
+#: ../src/views/PreferenceWindow.qml:152
+msgid "Reset subtitle settings"
+msgstr "Сброс настроек субтитров"
+
+#: ../src/views/PreferenceWindow.qml:226
+msgid "Fullscreen on opening file"
+msgstr "Открыть файл в полноэкранном режиме"
+
+#: ../src/views/PreferenceWindow.qml:232
+msgid "Apply the size last time closed"
+msgstr "Применить размер  при последнем закрытии файла"
+
+#: ../src/views/PreferenceWindow.qml:258
+msgid "Allow multiple instances"
+msgstr "Разрешить несколько настроек"
+
+#: ../src/views/PreferenceWindow.qml:263
+msgid "Pause when minimized"
+msgstr "Пауза при сворачивании"
+
+#: ../src/views/PreferenceWindow.qml:564 ../src/views/ShortcutsViewer.qml:108
+msgid "Rotate counterclockwise"
+msgstr "Повернуть против часовой стрелки"
+
+#: ../src/views/PreferenceWindow.qml:590 ../src/views/ShortcutsViewer.qml:112
+msgid "Rotate clockwise"
+msgstr "Повернуть по часовой стрелке"
+
+#: ../src/views/PreferenceWindow.qml:668 ../src/views/ShortcutsViewer.qml:124
+msgid "Mute"
+msgstr "Заглушить"
+
+#: ../src/views/PreferenceWindow.qml:954 ../src/views/ShortcutsViewer.qml:143
+msgid "Scroll"
+msgstr "Прокрутка"
+
+#: ../src/views/PreferenceWindow.qml:957 ../src/views/ShortcutsViewer.qml:144
+#: ../src/views/VolumeButton.qml:44
+msgid "Volume"
+msgstr "Громкость"
+
+#: ../src/views/PreferenceWindow.qml:993
+msgid "Font"
+msgstr "Шрифт"
+
+#: ../src/views/PreferenceWindow.qml:1053
+msgid "Font color"
+msgstr "Цвет шрифта"
+
+#: ../src/views/PreferenceWindow.qml:1071
+msgid "Size"
+msgstr "Размер"
+
+#: ../src/views/PreferenceWindow.qml:1105
+msgid "Border color"
+msgstr "Цвет границы"
+
+#: ../src/views/PreferenceWindow.qml:1123
+msgid "Position"
+msgstr "Положение"
+
+#: ../src/views/PreferenceWindow.qml:1128
+msgid "Bottom"
+msgstr "Низ"
+
+#: ../src/views/PreferenceWindow.qml:1129
+msgid "Top"
+msgstr "Верх"
+
+#: ../src/views/PreferenceWindow.qml:1140
+msgid "Sync adjustment (s)"
+msgstr "Регулировка синхр. (s)"
+
+#: ../src/views/TitleBar.qml:173
+msgid "Shown in a proportion of 1:1"
+msgstr "Показывать в соотношении 1:1"
+
+#: ../src/views/TitleBar.qml:185
+msgid "Shown in 1.5 times"
+msgstr "Ускорить в 1.5 раза"
+
+#: ../src/views/TitleBar.qml:198
+msgid "Return to mini mode"
+msgstr "Вернуть в режим мини"
+
+#: ../src/views/TitleBar.qml:198
+msgid "Shown in fullscreen"
+msgstr "Показывать в полноэкранном режиме"
+
+#: ../src/views/TitleBar.qml:213
+msgid "Cancel \"On Top\""
+msgstr "Отменить \"Поверх окон\""
+
+#: ../src/views/TitleBar.qml:213
+msgid "On Top"
+msgstr "Поверх окон"
+
+#: ../src/views/main.qml:142
+msgid "Please input the url of file played"
+msgstr "Введите URL воспроизводимого файла"
+
+#: ../src/views/main.qml:143
+msgid "Confirm"
+msgstr "Подтвердить"
+
+#: ../src/views/main.qml:160
+msgid "The parse failed"
+msgstr "Ошибка анализа"
+
+#: ../src/views/main.qml:458 ../src/views/main.qml:459
+msgid "Buffering..."
+msgstr "Буферизация..."
+
+#: ../src/controllers/menu_controller.py:35
+msgid "Default"
+msgstr "По умолчанию"
+
+#: ../src/controllers/menu_controller.py:47
+msgid "Rotate 90 degree clockwise"
+msgstr "Повернуть на 90° по часовой стрелке"
+
+#: ../src/controllers/menu_controller.py:48
+msgid "Rotate 90 degree counterclockwise"
+msgstr "Повернуть на 90° против часовой стрелки"
+
+#: ../src/controllers/menu_controller.py:49
+msgid "Flip horizontally"
+msgstr "Отразить по горизонтали"
+
+#: ../src/controllers/menu_controller.py:50
+msgid "Flip vertically"
+msgstr "Отразить по вертикали"
+
+#: ../src/controllers/menu_controller.py:58
+msgid "Volume Up"
+msgstr "Громче"
+
+#: ../src/controllers/menu_controller.py:59
+msgid "Volume Down"
+msgstr "Тише"
+
+#: ../src/controllers/menu_controller.py:64
+msgid "Auto"
+msgstr "Автоматически"
+
+#: ../src/controllers/menu_controller.py:65
+msgid "Left"
+msgstr "Левый"
+
+#: ../src/controllers/menu_controller.py:66
+msgid "Right"
+msgstr "Правый"
+
+#: ../src/controllers/menu_controller.py:67
+msgid "Mono"
+msgstr "Моно"
+
+#: ../src/controllers/menu_controller.py:68
+msgid "Stero"
+msgstr "Стерео"
+
+#: ../src/controllers/menu_controller.py:72
+msgid "Hide subtitle"
+msgstr "Скрыть субтитры"
+
+#: ../src/controllers/menu_controller.py:76
+msgid "Open manually"
+msgstr "Открыть вручную"
+
+#: ../src/controllers/menu_controller.py:77
+msgid "Subtitle selection"
+msgstr "Выбор субтитров"
+
+#: ../src/controllers/menu_controller.py:78
+msgid "Subtitle setting"
+msgstr "Настройка субтитров"
+
+#: ../src/controllers/menu_controller.py:82
+msgid "Order"
+msgstr "Порядок"
+
+#: ../src/controllers/menu_controller.py:83
+msgid "Random"
+msgstr "В случайном порядке"
+
+#: ../src/controllers/menu_controller.py:84
+msgid "Single"
+msgstr "Одиночный"
+
+#: ../src/controllers/menu_controller.py:85
+msgid "Repeat (Single)"
+msgstr "Повтор (один файл)"
+
+#: ../src/controllers/menu_controller.py:86
+msgid "Repeat (Playlist)"
+msgstr "Повтор (список воспроизведения)"
+
+#: ../src/controllers/menu_controller.py:99
+msgid "Open a folder"
+msgstr "Открыть папку"
+
+#: ../src/controllers/menu_controller.py:100
+msgid "Open URL"
+msgstr "Открыть URL"
+
+#: ../src/controllers/menu_controller.py:104
+msgid "Always on top"
+msgstr "Всегда поверх окон"
+
+#: ../src/controllers/menu_controller.py:107
+msgid "Play Sequence"
+msgstr "Порядок проигрывания"
+
+#: ../src/controllers/menu_controller.py:109
+msgid "Frame"
+msgstr "Кадр"
+
+#: ../src/controllers/menu_controller.py:110
+msgid "Sound"
+msgstr "Звук"
+
+#: ../src/controllers/menu_controller.py:113
+msgid "Settings"
+msgstr "Настройки"
+
+#: ../src/controllers/menu_controller.py:114
+#: ../src/controllers/menu_controller.py:132
+msgid "Information"
+msgstr "Информация"
+
+#: ../src/controllers/menu_controller.py:115
+msgid "Help"
+msgstr "Помощь"
+
+#: ../src/controllers/menu_controller.py:121
+#: ../src/controllers/menu_controller.py:137
+msgid "Add folder"
+msgstr "Добавить папку"
+
+#: ../src/controllers/menu_controller.py:123
+msgid "Remove from playlist"
+msgstr "Удалить из списка воспроизведения"
+
+#: ../src/controllers/menu_controller.py:124
+msgid "Remove invalid file"
+msgstr "Удалить неверный файл"
+
+#: ../src/controllers/menu_controller.py:125
+msgid "Export"
+msgstr "Экспорт"
+
+#: ../src/controllers/menu_controller.py:126
+msgid "Import"
+msgstr "Импорт"
+
+#: ../src/controllers/menu_controller.py:131
+msgid "Open file location"
+msgstr "Открыть расположение файла"
+
+#: ../src/controllers/menu_controller.py:451
+msgid "Exit mini mode"
+msgstr "Выход из мини-режима"

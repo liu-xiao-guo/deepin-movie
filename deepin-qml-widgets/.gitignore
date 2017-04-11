@@ -1,0 +1,14 @@
+*.pyc
+nohup.out
+.#*
+*.~
+build
+dist
+dtk.egg-info
+*.po~
+*.swp
+/move.py
+*.so
+Makefile
+*.user
+*.mo

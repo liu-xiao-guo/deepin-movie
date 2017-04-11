@@ -1,0 +1,107 @@
+name: deepin-movie
+version: '0.1' 
+summary: deepin-movie
+description: |
+  This is deepin-movie snap application
+
+grade: stable
+confinement: devmode
+
+apps:
+  deepin-movie:
+    command: desktop-launch bin/wrapper
+
+parts:
+  app:
+    source: ./src
+    plugin: make
+    stage-packages:
+      - qtdeclarative5-qtquick2-plugin
+      - qtdeclarative5-window-plugin
+      - libqt5qml-graphicaleffects
+      - qml-module-qtquick-controls
+#      - deepin-qml-widgets
+      - libdtkwidget
+      - libdtkbase
+      - libdtkutil
+      - dde-go-dbus-factory
+      - dde-qml-dbus-factory
+      - libqt5multimedia5
+      - libqt5multimedia5-plugins
+      - libqt5multimediawidgets5
+      - gstreamer1.0-plugins-base
+      - gstreamer1.0-plugins-good
+      - gstreamer1.0-plugins-bad
+      - gstreamer1.0-plugins-ugly
+    after: [desktop-qt5]
+
+  py: 
+    source: ./deepin-menu
+    plugin: python2
+    stage-packages:
+      - python-opengl
+      - python-pyqt5
+      - libx11-xcb1
+      - libxi6:amd64
+      - python-wnck
+      - python-pyqt5.qtquick
+      - python-magic
+      - python-sip
+      - python-bottle
+      - python-prctl
+      - python-xpyb
+      - libass5:amd64
+      - libmagic1
+      - mediainfo
+    requirements: ./requirements.txt
+    after: [xpybutil, deepin-menu]
+
+  qtav:
+    source: https://github.com/wang-bin/QtAV.git
+    plugin: qmake
+    qt-version: qt5
+
+  deepin-qml-widgets:
+    source: ./deepin-qml-widgets
+    plugin: qmake
+    options:
+      - DEFINES+= SNAP_APP
+    qt-version: qt5
+  
+  deepin-menu:
+    source: https://github.com/linuxdeepin/deepin-menu.git
+    plugin: qmake
+    qt-version: qt5
+
+  deepin-tool-kit:
+    source: https://github.com/linuxdeepin/deepin-tool-kit.git
+    plugin: qmake
+    qt-version: qt5
+
+  bin:
+    source: ./bin
+    plugin: dump
+    organize: 
+      wrapper: bin/wrapper
+
+#  deepin-widget:
+#    source: https://github.com/linuxdeepin/deepin-qml-widgets.git
+#    plugin: qmake
+#    qt-version: qt5
+
+  xpybutil:
+    source: ./python-xpybutil_0.0+git20150930_all.deb
+    plugin: dump
+ 
+#  dbus:
+#    source: https://github.com/linuxdeepin/dbus-factory.git
+#    plugin: make
+#    after: [generator]
+
+  generator:
+    source: ./deepin-dbus-generator-0.6.5-4-x86_64.pkg.tar.xz
+    plugin: dump
+ 
+#  widgets:
+#    source: ./deepin-qml-widgets_14.12+git20150715104406-vivid_amd64.deb
+#    plugin: dump

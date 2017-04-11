@@ -1,0 +1,10 @@
+#!/bin/bash
+
+echo "running deepin-menu..."
+#exec "$SNAP/usr/lib/deepin-menu" "$@"
+$SNAP/usr/lib/deepin-menu&
+
+echo "running main..."
+$SNAP/usr/bin/python2 $SNAP/usr/share/deepin-movie/main.py
+
+
